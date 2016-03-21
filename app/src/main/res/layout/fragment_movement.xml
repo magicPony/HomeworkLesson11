@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.taras.homeworklesson11.MovementFragment">
+
+    <LinearLayout
+        android:id="@+id/ll_FM"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ll_FM_height">
+
+        <Button
+            android:id="@+id/btn_button_FM"
+            android:text="@string/button"
+            android:layout_marginLeft="@dimen/buttons_FM_margin"
+            android:layout_marginRight="@dimen/buttons_FM_margin"
+            android:layout_marginTop="@dimen/buttons_FM_margin"
+            android:layout_marginBottom="@dimen/buttons_FM_margin"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btn_text_FM"
+            android:text="@string/text"
+            android:layout_marginLeft="@dimen/buttons_FM_margin"
+            android:layout_marginRight="@dimen/buttons_FM_margin"
+            android:layout_marginTop="@dimen/buttons_FM_margin"
+            android:layout_marginBottom="@dimen/buttons_FM_margin"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btn_image_FM"
+            android:text="@string/image"
+            android:layout_marginLeft="@dimen/buttons_FM_margin"
+            android:layout_marginRight="@dimen/buttons_FM_margin"
+            android:layout_marginTop="@dimen/buttons_FM_margin"
+            android:layout_marginBottom="@dimen/buttons_FM_margin"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_moving_area_FM"
+        android:padding="@dimen/rl_moving_area_FM_padding"
+        android:layout_below="@id/ll_FM"
+        android:background="@drawable/drawing_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

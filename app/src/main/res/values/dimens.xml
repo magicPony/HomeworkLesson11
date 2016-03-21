@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="drawing_background_corners_radius">5dp</dimen>
+    <dimen name="drawing_background_stroke_width">2dp</dimen>
+    <dimen name="ll_FD_height">80dp</dimen>
+    <dimen name="v_color_margin">10dp</dimen>
+    <dimen name="ll_FM_height">60dp</dimen>
+    <dimen name="buttons_FM_margin">10dp</dimen>
+    <dimen name="rl_moving_area_FM_padding">10dp</dimen>
+</resources>

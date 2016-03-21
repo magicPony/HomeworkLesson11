@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Homework Lesson 11</string>
+    <string name="switch_fragment">Switch fragment</string>
+    <string name="button">Button</string>
+    <string name="text">Text</string>
+    <string name="image">Image</string>
+    <string name="empty_string" />
+</resources>
